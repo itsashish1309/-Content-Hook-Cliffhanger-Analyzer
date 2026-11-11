@@ -284,5 +284,3 @@ visual signals from frames · series-level arc tracking across episodes.
 `core/llm.py`), `load_dotenv()` before core imports, and the dark purple/cyan theme with the live
 pipeline status bars. The meeting-specific `summarizer.py` and `extractor.py` were replaced by the
 hook, cliffhanger, emotion and verdict analysers.
-#   - C o n t e n t - H o o k - C l i f f h a n g e r - A n a l y z e r  
- 
