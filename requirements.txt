@@ -1,0 +1,50 @@
+# ── HookLens — requirements.txt ──────────────────────────────────────────────
+# Python 3.11 recommended (3.10–3.12 tested targets).
+# On Streamlit Community Cloud choose Python 3.11 under "Advanced settings".
+# System dependency: FFmpeg (installed on Streamlit Cloud via packages.txt).
+
+# ── Input ─────────────────────────────────────────────────────────────────────
+yt-dlp[default]>=2025.11.12       # YouTube download; [default] = yt-dlp's own recommended
+                                  # extras (incl. yt-dlp-ejs, its YouTube challenge solver)
+
+# ── Audio ─────────────────────────────────────────────────────────────────────
+pydub>=0.25.1                     # slicing, normalising, detect_silence for pacing
+ffmpeg-python>=0.2.0              # ffprobe: detect "no audio track" before decoding
+audioop-lts>=0.2.1; python_version >= "3.13"   # pydub needs audioop, removed in Python 3.13+
+
+# ── Speech-to-text ────────────────────────────────────────────────────────────
+openai-whisper>=20240930          # English (and fallback) — local, "base" model
+torch>=2.2.0                      # Whisper backend (CPU is fine for 1–3 min episodes)
+# Sarvam (Hindi / Hinglish) is called over HTTPS with `requests` — no SDK needed.
+
+# ── Translation ───────────────────────────────────────────────────────────────
+deep-translator>=1.11.4           # optional English line-by-line translation
+
+# ── LLM orchestration — LangChain LCEL + Mistral ──────────────────────────────
+langchain-core>=0.3.0             # LCEL, ChatPromptTemplate, JsonOutputParser
+langchain-mistralai>=0.2.0
+# `langchain` and `langchain-community` are not imported anywhere: LCEL lives in
+# langchain-core, so leaving them out keeps the Streamlit Cloud build lighter.
+
+# ── RAG ───────────────────────────────────────────────────────────────────────
+chromadb>=0.5.5                   # benchmark store (persistent) + episode chat (in-memory)
+sentence-transformers>=3.0.0
+langchain-huggingface>=0.1.0      # HuggingFaceEmbeddings wrapper
+
+# ── UI ────────────────────────────────────────────────────────────────────────
+streamlit>=1.50.0,<2.0            # >=1.50 for width="stretch" and st.feedback
+
+# ── PDF ───────────────────────────────────────────────────────────────────────
+reportlab>=4.2.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+numpy>=1.26.0
+tqdm>=4.66.0
+requests>=2.32.0
+
+# ── Optional (NOT installed by default — outside the agreed stack) ────────────
+# YouTube now needs a JavaScript runtime for yt-dlp. Locally, install Deno
+# system-wide (brew/winget/curl). On Streamlit Cloud you can uncomment the line
+# below (it ships the official Deno binary via PyPI) — or simply use Upload.
+# deno>=2.3

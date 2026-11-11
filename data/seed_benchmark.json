@@ -1,0 +1,390 @@
+{
+  "_note": "SYNTHETIC seed examples written for HookLens to match the scoring rubric anchors. They are NOT real Kuku TV episodes or real retention data. They exist so the 'similar past hooks' benchmark works on first run; real analysed episodes are added on top.",
+  "created": "2026-11-11",
+  "items": [
+    {
+      "id": "h01",
+      "kind": "hook",
+      "language": "hinglish",
+      "title": "Seed · The Driver's Secret",
+      "text": "Sir, aapki biwi ki car ke brakes kisi ne kaate the. Aur CCTV mein jo dikh raha hai... woh aap khud hain.",
+      "text_en": "Sir, someone cut the brakes on your wife's car. And the person on the CCTV... is you.",
+      "sub_scores": {
+        "conflict_tension": 9,
+        "curiosity_gap": 10,
+        "emotional_intensity": 8,
+        "stakes_clarity": 9,
+        "speed": 10.0
+      },
+      "score": 9.2
+    },
+    {
+      "id": "h02",
+      "kind": "hook",
+      "language": "english",
+      "title": "Seed · Wrong Groom",
+      "text": "You signed the marriage papers. Congratulations — you just married the man who ruined your father.",
+      "text_en": "You signed the marriage papers. Congratulations — you just married the man who ruined your father.",
+      "sub_scores": {
+        "conflict_tension": 9,
+        "curiosity_gap": 9,
+        "emotional_intensity": 8,
+        "stakes_clarity": 9,
+        "speed": 10.0
+      },
+      "score": 8.9
+    },
+    {
+      "id": "h03",
+      "kind": "hook",
+      "language": "hindi",
+      "title": "Seed · सौतेली माँ",
+      "text": "अगर कल सुबह तक पैसे नहीं मिले, तो तुम्हारी बेटी इस घर में आखिरी बार साँस लेगी।",
+      "text_en": "If I don't get the money by tomorrow morning, your daughter will breathe her last in this house.",
+      "sub_scores": {
+        "conflict_tension": 9,
+        "curiosity_gap": 8,
+        "emotional_intensity": 9,
+        "stakes_clarity": 9,
+        "speed": 10.0
+      },
+      "score": 8.9
+    },
+    {
+      "id": "h04",
+      "kind": "hook",
+      "language": "english",
+      "title": "Seed · One Year Back",
+      "text": "I died on my wedding day. And then I woke up... one year before it happened.",
+      "text_en": "I died on my wedding day. And then I woke up... one year before it happened.",
+      "sub_scores": {
+        "conflict_tension": 6,
+        "curiosity_gap": 10,
+        "emotional_intensity": 8,
+        "stakes_clarity": 7,
+        "speed": 10.0
+      },
+      "score": 8.1
+    },
+    {
+      "id": "h05",
+      "kind": "hook",
+      "language": "hinglish",
+      "title": "Seed · Divorce Papers",
+      "text": "Sign karo in papers pe. Aaj se tum Malhotra khandaan ki bahu nahi. Aur Aarav? Woh mera beta hai! Ab nahi.",
+      "text_en": "Sign these papers. From today you are not the Malhotra family's daughter-in-law. And Aarav? He's my son! Not anymore.",
+      "sub_scores": {
+        "conflict_tension": 9,
+        "curiosity_gap": 7,
+        "emotional_intensity": 9,
+        "stakes_clarity": 9,
+        "speed": 10.0
+      },
+      "score": 8.6
+    },
+    {
+      "id": "h06",
+      "kind": "hook",
+      "language": "hinglish",
+      "title": "Seed · Promotion List",
+      "text": "Promotion list mein mera naam tha... phir kisne kaata? Aur boss mujhse aankhein kyun chura raha hai?",
+      "text_en": "My name was on the promotion list... so who removed it? And why is my boss avoiding my eyes?",
+      "sub_scores": {
+        "conflict_tension": 6,
+        "curiosity_gap": 8,
+        "emotional_intensity": 6,
+        "stakes_clarity": 6,
+        "speed": 9.0
+      },
+      "score": 6.9
+    },
+    {
+      "id": "h07",
+      "kind": "hook",
+      "language": "hindi",
+      "title": "Seed · पुरानी हवेली",
+      "text": "इस हवेली में कोई नहीं रहता... फिर रात को ये रोशनी कहाँ से आती है?",
+      "text_en": "Nobody lives in this mansion... so where does this light at night come from?",
+      "sub_scores": {
+        "conflict_tension": 3,
+        "curiosity_gap": 7,
+        "emotional_intensity": 5,
+        "stakes_clarity": 3,
+        "speed": 8.0
+      },
+      "score": 5.2
+    },
+    {
+      "id": "h08",
+      "kind": "hook",
+      "language": "hinglish",
+      "title": "Seed · Ghar Wapsi",
+      "text": "Papa, main wapas aa gayi hoon. Sab kuch theek hai na? Itne chup kyun ho sab?",
+      "text_en": "Papa, I'm back. Is everything okay? Why is everyone so quiet?",
+      "sub_scores": {
+        "conflict_tension": 4,
+        "curiosity_gap": 6,
+        "emotional_intensity": 4,
+        "stakes_clarity": 4,
+        "speed": 9.0
+      },
+      "score": 5.2
+    },
+    {
+      "id": "h09",
+      "kind": "hook",
+      "language": "english",
+      "title": "Seed · The Locked Door",
+      "text": "So, this is your room. Rent's due on the first. Any questions? Uh... why is the door locked from the outside?",
+      "text_en": "So, this is your room. Rent's due on the first. Any questions? Uh... why is the door locked from the outside?",
+      "sub_scores": {
+        "conflict_tension": 3,
+        "curiosity_gap": 6,
+        "emotional_intensity": 3,
+        "stakes_clarity": 3,
+        "speed": 4.0
+      },
+      "score": 3.9
+    },
+    {
+      "id": "h10",
+      "kind": "hook",
+      "language": "english",
+      "title": "Seed · The Interview",
+      "text": "Good morning, I'm here for the 10 AM interview. Is Mr. Kapoor in? He'll see you shortly. Please wait.",
+      "text_en": "Good morning, I'm here for the 10 AM interview. Is Mr. Kapoor in? He'll see you shortly. Please wait.",
+      "sub_scores": {
+        "conflict_tension": 1,
+        "curiosity_gap": 2,
+        "emotional_intensity": 1,
+        "stakes_clarity": 3,
+        "speed": 3.0
+      },
+      "score": 1.8
+    },
+    {
+      "id": "h11",
+      "kind": "hook",
+      "language": "english",
+      "title": "Seed · Coffee Order",
+      "text": "One cappuccino, please. Extra foam. Sure, name for the order? Priya.",
+      "text_en": "One cappuccino, please. Extra foam. Sure, name for the order? Priya.",
+      "sub_scores": {
+        "conflict_tension": 0,
+        "curiosity_gap": 1,
+        "emotional_intensity": 1,
+        "stakes_clarity": 2,
+        "speed": 4.0
+      },
+      "score": 1.4
+    },
+    {
+      "id": "h12",
+      "kind": "hook",
+      "language": "hinglish",
+      "title": "Seed · Subah Ki Chai",
+      "text": "Good morning Maa! Aaj nashte mein kya hai? Paratha bana rahi hoon beta, baitho.",
+      "text_en": "Good morning Mom! What's for breakfast today? I'm making parathas, sit down.",
+      "sub_scores": {
+        "conflict_tension": 1,
+        "curiosity_gap": 1,
+        "emotional_intensity": 1,
+        "stakes_clarity": 2,
+        "speed": 1.0
+      },
+      "score": 1.1
+    },
+    {
+      "id": "c01",
+      "kind": "cliffhanger",
+      "language": "hinglish",
+      "title": "Seed · DNA Ka Sach",
+      "text": "Report aa gayi... Aarav tumhara beta nahi hai. Aur jiska hai... woh is waqt tumhare ghar ke bahar khada hai. (doorbell)",
+      "text_en": "The report is here... Aarav is not your son. And the man whose son he is... is standing outside your house right now. (doorbell)",
+      "sub_scores": {
+        "unresolved_question": 10,
+        "rising_stakes": 9,
+        "reveal_shock": 10,
+        "emotional_peak_at_cut": 9,
+        "would_pay_next": 10
+      },
+      "score": 9.6
+    },
+    {
+      "id": "c02",
+      "kind": "cliffhanger",
+      "language": "english",
+      "title": "Seed · Coma Call",
+      "text": "Ma'am, your husband just woke up from the coma. He's asking for his wife... but the name he said isn't yours.",
+      "text_en": "Ma'am, your husband just woke up from the coma. He's asking for his wife... but the name he said isn't yours.",
+      "sub_scores": {
+        "unresolved_question": 10,
+        "rising_stakes": 9,
+        "reveal_shock": 9,
+        "emotional_peak_at_cut": 8,
+        "would_pay_next": 9
+      },
+      "score": 9.1
+    },
+    {
+      "id": "c03",
+      "kind": "cliffhanger",
+      "language": "hindi",
+      "title": "Seed · बंद दरवाज़ा",
+      "text": "दरवाज़ा खोलो... मैं जानती हूँ तुमने ही मेरी बहन को मारा है। (गोली चलने की आवाज़)",
+      "text_en": "Open the door... I know it was you who killed my sister. (gunshot)",
+      "sub_scores": {
+        "unresolved_question": 9,
+        "rising_stakes": 10,
+        "reveal_shock": 8,
+        "emotional_peak_at_cut": 10,
+        "would_pay_next": 9
+      },
+      "score": 9.2
+    },
+    {
+      "id": "c04",
+      "kind": "cliffhanger",
+      "language": "hinglish",
+      "title": "Seed · Shaadi Ka Card",
+      "text": "Shaadi ke card pe dulhan ka naam padhkar uske haath kaanp gaye — Meera. Uski apni behen.",
+      "text_en": "Reading the bride's name on the wedding card, his hands shook — Meera. His own sister.",
+      "sub_scores": {
+        "unresolved_question": 9,
+        "rising_stakes": 8,
+        "reveal_shock": 9,
+        "emotional_peak_at_cut": 8,
+        "would_pay_next": 8
+      },
+      "score": 8.5
+    },
+    {
+      "id": "c05",
+      "kind": "cliffhanger",
+      "language": "english",
+      "title": "Seed · The Envelope",
+      "text": "The envelope had only one line: your mother is alive. Come alone.",
+      "text_en": "The envelope had only one line: your mother is alive. Come alone.",
+      "sub_scores": {
+        "unresolved_question": 10,
+        "rising_stakes": 8,
+        "reveal_shock": 8,
+        "emotional_peak_at_cut": 7,
+        "would_pay_next": 8
+      },
+      "score": 8.3
+    },
+    {
+      "id": "c06",
+      "kind": "cliffhanger",
+      "language": "hinglish",
+      "title": "Seed · Board Meeting",
+      "text": "Tumhe kya laga, main sach mein bhool gaya? Kal board meeting mein sabko pata chalega tum kaun ho.",
+      "text_en": "Did you think I really forgot? Tomorrow at the board meeting everyone will find out who you are.",
+      "sub_scores": {
+        "unresolved_question": 8,
+        "rising_stakes": 8,
+        "reveal_shock": 5,
+        "emotional_peak_at_cut": 7,
+        "would_pay_next": 7
+      },
+      "score": 7.0
+    },
+    {
+      "id": "c07",
+      "kind": "cliffhanger",
+      "language": "english",
+      "title": "Seed · The Photo",
+      "text": "She looked at the photo again. Something about the man in the background felt familiar.",
+      "text_en": "She looked at the photo again. Something about the man in the background felt familiar.",
+      "sub_scores": {
+        "unresolved_question": 6,
+        "rising_stakes": 4,
+        "reveal_shock": 4,
+        "emotional_peak_at_cut": 4,
+        "would_pay_next": 5
+      },
+      "score": 4.7
+    },
+    {
+      "id": "c08",
+      "kind": "cliffhanger",
+      "language": "hinglish",
+      "title": "Seed · Zaroori Baat",
+      "text": "Mujhe tumse ek zaroori baat karni hai... kal milte hain.",
+      "text_en": "I need to tell you something important... let's meet tomorrow.",
+      "sub_scores": {
+        "unresolved_question": 5,
+        "rising_stakes": 3,
+        "reveal_shock": 2,
+        "emotional_peak_at_cut": 4,
+        "would_pay_next": 4
+      },
+      "score": 3.7
+    },
+    {
+      "id": "c09",
+      "kind": "cliffhanger",
+      "language": "english",
+      "title": "Seed · Talk Tomorrow",
+      "text": "I think we should talk about us. Tomorrow, okay? Okay.",
+      "text_en": "I think we should talk about us. Tomorrow, okay? Okay.",
+      "sub_scores": {
+        "unresolved_question": 4,
+        "rising_stakes": 3,
+        "reveal_shock": 1,
+        "emotional_peak_at_cut": 3,
+        "would_pay_next": 3
+      },
+      "score": 2.9
+    },
+    {
+      "id": "c10",
+      "kind": "cliffhanger",
+      "language": "english",
+      "title": "Seed · Sold The House",
+      "text": "And that's how we finally sold the house. Life goes on, I guess.",
+      "text_en": "And that's how we finally sold the house. Life goes on, I guess.",
+      "sub_scores": {
+        "unresolved_question": 1,
+        "rising_stakes": 1,
+        "reveal_shock": 1,
+        "emotional_peak_at_cut": 2,
+        "would_pay_next": 1
+      },
+      "score": 1.1
+    },
+    {
+      "id": "c11",
+      "kind": "cliffhanger",
+      "language": "hindi",
+      "title": "Seed · सब ठीक हो गया",
+      "text": "चलो, सब ठीक हो गया। अब हम सब साथ हैं।",
+      "text_en": "Come on, everything is fine now. Now we are all together.",
+      "sub_scores": {
+        "unresolved_question": 0,
+        "rising_stakes": 1,
+        "reveal_shock": 0,
+        "emotional_peak_at_cut": 2,
+        "would_pay_next": 1
+      },
+      "score": 0.7
+    },
+    {
+      "id": "c12",
+      "kind": "cliffhanger",
+      "language": "hinglish",
+      "title": "Seed · Good Night",
+      "text": "Chalo, khana kha lo. Kal ka kal dekhenge. Good night.",
+      "text_en": "Come on, eat your food. We'll see about tomorrow tomorrow. Good night.",
+      "sub_scores": {
+        "unresolved_question": 0,
+        "rising_stakes": 0,
+        "reveal_shock": 0,
+        "emotional_peak_at_cut": 1,
+        "would_pay_next": 1
+      },
+      "score": 0.3
+    }
+  ]
+}

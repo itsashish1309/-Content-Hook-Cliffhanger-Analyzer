@@ -1,0 +1,20 @@
+# Streamlit settings for HookLens.
+# The dark base theme keeps native widgets (tabs, uploader, metrics) consistent
+# with the custom purple/cyan CSS in app.py.
+
+[theme]
+base = "dark"
+primaryColor = "#7c3aed"
+backgroundColor = "#0a0a0f"
+secondaryBackgroundColor = "#111118"
+textColor = "#e8e8f0"
+
+[server]
+maxUploadSize = 200        # MB — micro-drama episodes are far smaller
+runOnSave = false
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

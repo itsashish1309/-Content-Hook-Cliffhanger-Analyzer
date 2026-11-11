@@ -1,0 +1,28 @@
+# ── Secrets ──
+.env
+.streamlit/secrets.toml
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ── Runtime data (keep folder skeleton + seed file) ──
+data/chroma_db/
+data/reports/
+data/feedback.json
+data/uploads/*
+!data/uploads/.gitkeep
+data/downloads/*
+!data/downloads/.gitkeep
+
+# ── OS / editors ──
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
